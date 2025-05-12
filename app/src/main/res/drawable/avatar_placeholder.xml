@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Arka plan -->
+    <path
+        android:fillColor="#E3E8FF"
+        android:pathData="M0,0h24v24h-24z" />
+    
+    <!-- Avatar -->
+    <path
+        android:fillColor="#3366FF"
+        android:pathData="M12,12m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+    
+    <!-- Baş -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,7m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    
+    <!-- Vücut -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M17.5,19.5c0,-3.5 -2.5,-6.5 -5.5,-6.5s-5.5,3 -5.5,6.5H17.5z" />
+</vector> 
