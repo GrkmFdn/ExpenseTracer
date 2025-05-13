@@ -10,6 +10,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.CalendarMonth
+import androidx.compose.material.icons.filled.GridView
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.outlined.Home
@@ -135,27 +136,27 @@ fun HomeScreen(
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        // Ana sayfa ikonu
+                        // Ana sayfa ikonu - seçili durumda
                         IconButton(
                             onClick = { /* Ana sayfa */ },
                             modifier = Modifier.size(56.dp)
                         ) {
                             Icon(
-                                imageVector = Icons.Outlined.GridView,
+                                imageVector = Icons.Filled.GridView,
                                 contentDescription = "Ana Sayfa",
-                                tint = Color.Gray,
+                                tint = Primary,
                                 modifier = Modifier.size(36.dp)
                             )
                         }
                         
-                        // Profil ikonu
+                        // Grafik ikonu
                         IconButton(
-                            onClick = { /* Profil */ },
+                            onClick = { /* Grafikler */ },
                             modifier = Modifier.size(56.dp)
                         ) {
                             Icon(
-                                imageVector = Icons.Outlined.Person,
-                                contentDescription = "Profil",
+                                imageVector = Icons.Outlined.CalendarMonth,
+                                contentDescription = "Grafikler",
                                 tint = Color.Gray,
                                 modifier = Modifier.size(36.dp)
                             )
